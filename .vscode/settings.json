@@ -1,3 +1,5 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python.analysis.extraPaths": [
+        "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages"
+    ]
 }
