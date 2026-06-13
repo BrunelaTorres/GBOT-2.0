@@ -21,8 +21,8 @@ def menu_principal(message):
     markup = types.InlineKeyboardMarkup(row_width=1)
 
     markup.add(types.InlineKeyboardButton("🤖 Interactuar con G-BOT", callback_data="interactuar"))
-    markup.add(types.InlineKeyboardButton("🚛 Saber cuándo pasa el basurero", callback_data="basurero"))
-    markup.add(types.InlineKeyboardButton("♻️ Saber si un objeto es reciclable", callback_data="reciclable"))
+    markup.add(types.InlineKeyboardButton("🚛 Saber cuándo pasa el camión basurero", callback_data="basurero"))
+    markup.add(types.InlineKeyboardButton("♻️ ¿Esto es reciclable?", callback_data="reciclable"))
     markup.add(types.InlineKeyboardButton("💬 Dejanos tu opinión", callback_data="opinion"))
     markup.add(types.InlineKeyboardButton("🚪 Salir", callback_data="salir"))
 
